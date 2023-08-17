@@ -1,0 +1,53 @@
+/* Container holding the image and the text */
+  
+  .container {
+    overflow-x: hidden;
+    position: relative;
+    /* text-align: center; */
+    color: blue; 
+    font: weight 5px;
+  }
+  
+  /* Bottom left text */
+  .bottom-left {
+    border: 5px solid black;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  /* Top left text */
+  .top-left {
+    border:5px solid black;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  /* Top right text */
+  .top-right {
+    border: 5px solid black;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  /* Bottom right text */
+  .bottom-right {
+    border: 5px solid black;
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  /* Centered text */
+  .centered {
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  h1,p{
+    text-align: center;
+  }

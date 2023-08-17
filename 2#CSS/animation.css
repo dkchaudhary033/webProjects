@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.container{
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    align-items: end;
+}
+
+.background{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.bgimage{
+    border: 2px;
+    height: 100px;
+    width: 100px;
+}

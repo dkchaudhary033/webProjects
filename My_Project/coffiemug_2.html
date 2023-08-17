@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+.p{
+    height: 100vh;
+    width: 50wh;
+    border: 1px solid black;
+    margin: 150px;
+ }
+.rohit{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100vh;
+    width: 100%;
+    
+}
+.mug{
+    height: 100vh;
+    width: 300px;
+    border-radius: 10px 0 0 10px;
+    margin: auto;
+}
+.rohit2{
+    height: 100vh;
+    width: 100pvw;
+    margin: 10px;
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 1px;
+    border-radius: 0 10px 10px 0 ;
+    padding: 20px;
+}
+.rohit3{
+    display: flex;
+    align-items: baseline;
+    color: rgba(9, 128, 0, 0.854);
+    font-size: x-large;
+}
+.rohit3>p{
+    padding: 10px;
+    font-size: 1rem;
+    color: gray;
+
+}
+.rohit4{
+    padding: 5px 20px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    font: 0.6rem;
+    margin-top: 10px;
+    
+}
+*{
+   padding: 0; 
+   margin: 0;
+   box-sizing: border-box;
+}
+/* .mug{
+    border: 1px solid black;
+    height: 400px;
+    width: 250px;
+    
+    
+}
+.mug2{
+    
+
+</head>
+<body>
+    <!-- <div class="rohit">
+    <div class="mug2"> </div>
+
+        <div class="mug"  >
+            <img src="https://img.freepik.com/premium-photo/mockup-white-mug-wooden-table-top-minimalist-scandinavian-interior-template-layout-your-design-advertising-logo-with-copy-space-cup-light-beige-background_137678-422.jpg?w=2000" height="400px" width="250px">
+             </div>
+             
+
+        </div> -->
+        <div class="p">  <div class="rohit">
+            <img src="https://img.freepik.com/premium-photo/mockup-white-mug-wooden-table-top-minimalist-scandinavian-interior-template-layout-your-design-advertising-logo-with-copy-space-cup-light-beige-background_137678-422.jpg?w=2000" class="mug" >
+            <div class="rohit2">
+                <p>Coffee Mug </p>
+                <h2>White Coffee Mug </h2>
+                <p>Coffee Mugs are designed to express emotions.There are acclaimed for their amazing design & superior quality. </p>
+                <div class="rohit3">
+
+                    <h3>&#8377;149</h3>
+                    <p><strike>&#8377;230</strike></p>
+                </div>
+                <button class="rohit4">
+                    <img src="data:image/png;base64,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" alt="" width="15px">
+                         Add  to cart
+                </button>
+            </div>
+        </div></div>
+        <!-- <div class="rohit">
+            <img src="https://img.freepik.com/premium-photo/mockup-white-mug-wooden-table-top-minimalist-scandinavian-interior-template-layout-your-design-advertising-logo-with-copy-space-cup-light-beige-background_137678-422.jpg?w=2000" class="mug" >
+            <div class="rohit2">
+                <p>Coffee Mug </p>
+                <h2>White Coffee Mug </h2>
+                <p>Coffee Mugs are designed to express emotions.There are acclaimed for their amazing design & superior quality. </p>
+                <div class="rohit3">
+
+                    <h3>&#8377;149</h3>
+                    <p><strike>&#8377;230</strike></p>
+                </div>
+                <button class="rohit4">
+                    <img src="data:image/png;base64,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" alt="" width="15px">
+                         Add  to cart
+                </button>
+            </div>
+        </div> -->
+    </body>
+</html>
